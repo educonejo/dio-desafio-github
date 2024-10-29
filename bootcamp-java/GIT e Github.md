@@ -37,10 +37,29 @@ echo 'conteudo' | git hash-object --stdin
 echo -e 'blob 9\0conteudo' | openssl sha1
 ```
 
+##### Entendendo os Estados dos Arquivos
 - Untracked
 - Unmodified
 - Modified
 - Staged
 
+#### Criar um Repositório no Github
+Acessar "meus repositório" no [site](https://github.com/) do Github e criar um novo respositório.
 
+#### Comandos Git
+```sh
+git init
+```
+```sh
+git add *
+```
+```sh
+git commit -m "DESCRIÇÃO"
+```
+```sh
+git push origin master
+```
+```sh
+git pull origin master
+```
 
